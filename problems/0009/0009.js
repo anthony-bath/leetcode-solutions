@@ -27,5 +27,3 @@ const isPalindrome = function (x) {
 
   return true;
 };
-
-console.log(isPalindrome(122231));
