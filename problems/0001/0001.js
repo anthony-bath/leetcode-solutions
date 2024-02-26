@@ -4,7 +4,6 @@
  * @return {number[]}
  */
 const twoSum = function (nums, target) {
-  const result = [];
   const lookup = {};
 
   for (let i = 0; i < nums.length; i++) {
