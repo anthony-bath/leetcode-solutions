@@ -8,6 +8,7 @@ Format each problem's README.md according to the following requirements:
 - First line should be formatted with #
 - Remove the Solved, Easy/Medium/Hard, Topics, premium lock icon, Companies, Hint values
 - Format numbers, values like true/false, and mathematical or code-like samples with single backticks
+- If the content looks like it might be a list, format each line with - (preceding line possibly ends with : indicating it is a list)
 - Format variable names with single backticks
 - Example headings (e.g. Example 1:) should be formatted with ###
 - Examples (excluding their headings) should be formatted with triple backticks that include input, output and Explanation
