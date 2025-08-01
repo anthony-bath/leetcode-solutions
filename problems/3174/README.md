@@ -1,4 +1,4 @@
-## 3174. Clear Digits
+# 3174. Clear Digits
 
 You are given a string `s`.
 

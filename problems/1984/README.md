@@ -1,4 +1,4 @@
-## 1984. Minimum Difference Between Highest and Lowest of K Scores
+# 1984. Minimum Difference Between Highest and Lowest of K Scores
 
 You are given a `0`-indexed integer array `nums`, where `nums[i]` represents the score of the `i`th student. You are also given an integer `k`.
 
@@ -6,7 +6,7 @@ Pick the scores of any `k` students from the array so that the difference betwee
 
 Return the minimum possible difference.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [90], k = 1
@@ -16,7 +16,7 @@ Explanation: There is one way to pick score(s) of one student:
 The minimum possible difference is 0.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [9,4,1,7], k = 2
@@ -31,9 +31,7 @@ Explanation: There are six ways to pick score(s) of two students:
 The minimum possible difference is 2.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= k <= nums.length <= 1000
-- 0 <= nums[i] <= 10^5
-```
+- - `1` <= k` <= `nums.length <= `1000`
+- - `0` <= nums[i]` <= `10^5`

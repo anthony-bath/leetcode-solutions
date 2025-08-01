@@ -1,4 +1,4 @@
-## 806. Number of Lines To Write String
+# 806. Number of Lines To Write String
 
 You are given a string `s` of lowercase English letters and an array `widths` denoting how many pixels wide each lowercase English letter is. Specifically, `widths[0]` is the width of 'a', `widths[1]` is the width of 'b', and so on.
 
@@ -9,7 +9,7 @@ Return an array `result` of length 2 where:
 - `result[0]` is the total number of lines.
 - `result[1]` is the width of the last line in pixels.
 
-Example 1:
+### Example 1:
 
 ```
 Input: widths = [10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], s = "abcdefghijklmnopqrstuvwxyz"
@@ -21,7 +21,7 @@ uvwxyz      // 60 pixels wide
 There are a total of 3 lines, and the last line is 60 pixels wide.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: widths = [4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], s = "bbbcccdddaaa"
@@ -32,11 +32,9 @@ a            // 4 pixels wide
 There are a total of 2 lines, and the last line is 4 pixels wide.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- widths.length == 26
-- 2 <= widths[i] <= 10
-- 1 <= s.length <= 1000
-- s contains only lowercase English letters.
-```
+- - `widths.length == `26`
+- - `2` <= widths[i]` <= `10`
+- - `1` <= s.length` <= `1000`
+- - s contains only lowercase English letters.

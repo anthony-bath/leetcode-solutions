@@ -1,4 +1,4 @@
-## 38. Count and Say
+# 38. Count and Say
 
 The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
 
@@ -9,7 +9,7 @@ To determine how you "say" a digit string, split it into the minimal number of s
 
 Given a positive integer `n`, return the `n`th term of the count-and-say sequence.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 1
@@ -17,7 +17,7 @@ Output: "1"
 Explanation: This is the base case.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 4
@@ -29,8 +29,6 @@ countAndSay(3) = say "11" = two 1's = "21"
 countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 30
-```
+- `1` <= n` <= `30`

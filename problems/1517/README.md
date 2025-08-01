@@ -1,4 +1,4 @@
-## 1517. Find Users With Valid E-Mails
+# 1517. Find Users With Valid E-Mails
 
 Table: `Users`
 
@@ -26,7 +26,7 @@ Return the result table in any order.
 The result format is in the following example.
 
 ```
-Example 1:
+### Example 1:
 
 Input:
 Users table:

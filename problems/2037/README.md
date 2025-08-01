@@ -1,4 +1,4 @@
-## 2037. Minimum Number of Moves to Seat Everyone
+# 2037. Minimum Number of Moves to Seat Everyone
 
 There are `n` availabe seats and `n` students standing in a room. You are given an array seats of length `n`, where `seats[i]` is the position of the `i`th seat. You are also given the array students of length `n`, where `students[j]` is the position of the `j`th student.
 
@@ -9,7 +9,7 @@ Return the minimum number of moves required to move each student to a seat such 
 
 Note that there may be multiple seats or students in the same position at the beginning.
 
-Example 1:
+### Example 1:
 
 ```
 Input: seats = [3,1,5], students = [2,7,4]
@@ -21,7 +21,7 @@ Explanation: The students are moved as follows:
 In total, 1 + 2 + 1 = 4 moves were used.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: seats = [4,1,5,9], students = [1,3,2,6]
@@ -34,7 +34,7 @@ Explanation: The students are moved as follows:
 In total, 0 + 1 + 3 + 3 = 7 moves were used.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: seats = [2,2,6,6], students = [1,3,2,6]
@@ -48,7 +48,7 @@ The students are moved as follows:
 In total, 1 + 3 + 0 + 0 = 4 moves were used.
 ```
 
-Constraints:
+### Constraints:
 
 - `n == seats.length == students.length`
 - `1 <= n <= 100`

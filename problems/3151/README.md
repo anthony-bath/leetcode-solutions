@@ -1,4 +1,4 @@
-## 3151. Special Array I
+# 3151. Special Array I
 
 An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
 

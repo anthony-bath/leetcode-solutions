@@ -1,8 +1,8 @@
-## 2176. Count Equal and Divisible Pairs in an Array
+# 2176. Count Equal and Divisible Pairs in an Array
 
 Given a `0`-indexed integer array `nums` of length `n` and an integer `k`, return the number of pairs `(i, j)` where `0 <= i < j < n`, such that `nums[i] == nums[j]` and `(i * j)` is divisible by `k`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [3,1,2,2,2,1,3], k = 2
@@ -15,7 +15,7 @@ There are 4 pairs that meet all the requirements:
 - nums[3] == nums[4], and 3 * 4 == 12, which is divisible by 2.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [1,2,3,4], k = 1
@@ -23,9 +23,7 @@ Output: 0
 Explanation: Since no value in nums is repeated, there are no pairs (i,j) that meet all the requirements.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= nums.length <= 100
-- 1 <= nums[i], k <= 100
-```
+- - `1` <= nums.length` <= `100`
+- - `1` <= nums[i]`, `k <= `100`

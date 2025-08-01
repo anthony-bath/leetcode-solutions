@@ -1,4 +1,4 @@
-## 1475. Final Prices With a Special Discount in a Shop
+# 1475. Final Prices With a Special Discount in a Shop
 
 You are given an integer array `prices` where `prices[i]` is the price of the `i`th item in a shop.
 
@@ -6,7 +6,7 @@ There is a special discount for items in the shop. If you buy the `i`th item, th
 
 Return an integer array `answer` where `answer[i]` is the final price you will pay for the `i`th item of the shop, considering the special discount.
 
-Example 1:
+### Example 1:
 
 ```
 Input: prices = [8,4,6,2,3]
@@ -18,7 +18,7 @@ For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2
 For items 3 and 4 you will not receive any discount at all.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: prices = [1,2,3,4,5]
@@ -26,16 +26,14 @@ Output: [1,2,3,4,5]
 Explanation: In this case, for all items, you will not receive any discount at all.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: prices = [10,1,1,6]
 Output: [9,0,1,6]
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= prices.length <= 500
-1 <= prices[i] <= 1000
-```
+- `1` <= prices.length` <= `500`
+- `1` <= prices[i]` <= `1000`

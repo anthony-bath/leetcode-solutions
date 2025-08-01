@@ -1,4 +1,4 @@
-## 944. Delete Columns to Make Sorted
+# 944. Delete Columns to Make Sorted
 
 You are given an array of `n` strings `strs`, all of the same length.
 
@@ -16,7 +16,7 @@ You want to delete the columns that are not sorted lexicographically. In the abo
 
 Return the number of columns that you will delete.
 
-Example 1:
+### Example 1:
 
 ```
 Input: strs = ["cba","daf","ghi"]
@@ -28,7 +28,7 @@ ghi
 Columns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: strs = ["a","b"]
@@ -39,7 +39,7 @@ b
 Column 0 is the only column and is sorted, so you will not delete any columns.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: strs = ["zyx","wvu","tsr"]
@@ -51,11 +51,9 @@ tsr
 All 3 columns are not sorted, so you will delete all 3.
 ```
 
-Constraints:
+### Constraints:
 
-```
-n == strs.length
-1 <= n <= 100
-1 <= strs[i].length <= 1000
-strs[i] consists of lowercase English letters.
-```
+- `n == strs.length`
+- `1` <= n` <= `100`
+- `1` <= strs[i]`.`length <= `1000`
+- strs[i] consists of lowercase English letters.

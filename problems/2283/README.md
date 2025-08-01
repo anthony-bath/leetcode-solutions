@@ -1,10 +1,10 @@
-## 2283. Check if Number Has Equal Digit Count and Digit Value
+# 2283. Check if Number Has Equal Digit Count and Digit Value
 
 You are given a `0`-indexed string `num` of length `n` consisting of digits.
 
 Return `true` if for every index `i` in the range `0 <= i < n`, the digit `i` occurs `num[i]` times in `num`, otherwise return `false`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: num = "1210"
@@ -17,7 +17,7 @@ num[3] = '0'. The digit 3 occurs zero times in num.
 The condition holds true for every index in "1210", so return true.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: num = "030"
@@ -29,10 +29,8 @@ num[2] = '0'. The digit 2 occurs zero times in num.
 The indices 0 and 1 both violate the condition, so return false.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- n == num.length
-- 1 <= n <= 10
-- num consists of digits.
-```
+- - `n == num.length`
+- - `1` <= n` <= `10`
+- - num consists of digits.

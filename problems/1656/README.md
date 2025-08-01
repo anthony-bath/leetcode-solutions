@@ -1,4 +1,4 @@
-## 1656. Design an Ordered Stream
+# 1656. Design an Ordered Stream
 
 There is a stream of `n` `(idKey, value)` pairs arriving in an arbitrary order, where `idKey` is an integer between `1` and `n` and `value` is a string. No two pairs have the same `id`.
 
@@ -31,13 +31,11 @@ os.insert(4, "ddddd"); // Inserts (4, "ddddd"), returns ["ddddd", "eeeee"].
 // The resulting order is the same as the order above.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 1000
-1 <= id <= n
-value.length == 5
-value consists only of lowercase letters.
-Each call to insert will have a unique id.
-Exactly n calls will be made to insert.
-```
+- `1` <= n` <= `1000`
+- `1` <= id` <= n
+- `value.length == `5`
+- value consists only of lowercase letters.
+- Each call to insert will have a unique id.
+- Exactly n calls will be made to insert.

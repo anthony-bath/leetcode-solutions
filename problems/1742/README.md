@@ -1,4 +1,4 @@
-## 1742. Maximum Number of Balls in a Box
+# 1742. Maximum Number of Balls in a Box
 
 You are working in a ball factory where you have n balls numbered from `lowLimit` up to `highLimit` inclusive (i.e., `n == highLimit - lowLimit + 1`), and an infinite number of boxes numbered from `1` to infinity.
 
@@ -6,7 +6,7 @@ Your job at this factory is to put each ball in the box with a number equal to t
 
 Given two integers `lowLimit` and `highLimit`, return the number of balls in the box with the most balls.
 
-Example 1:
+### Example 1:
 
 ```
 Input: lowLimit = 1, highLimit = 10
@@ -17,7 +17,7 @@ Ball Count:  2 1 1 1 1 1 1 1 1 0  0  ...
 Box 1 has the most number of balls with 2 balls.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: lowLimit = 5, highLimit = 15
@@ -28,7 +28,7 @@ Ball Count:  1 1 1 1 2 2 1 1 1 0  0  ...
 Boxes 5 and 6 have the most number of balls with 2 balls in each.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: lowLimit = 19, highLimit = 28
@@ -39,8 +39,6 @@ Ball Count:  0 1 1 1 1 1 1 1 1 2  0  0  ...
 Box 10 has the most number of balls with 2 balls.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= lowLimit <= highLimit <= 10^5
-```
+- `1` <= lowLimit` <= `highLimit <= `10`^`5`

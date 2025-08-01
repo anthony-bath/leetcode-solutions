@@ -1,4 +1,4 @@
-## 2264. Largest 3-Same-Digit Number in String
+# 2264. Largest 3-Same-Digit Number in String
 
 You are given a string `num` representing a large integer. An integer is good if it meets the following conditions:
 
@@ -12,7 +12,7 @@ Note:
 A substring is a contiguous sequence of characters within a string.
 There may be leading zeroes in num or a good integer.
 
-Example 1:
+### Example 1:
 
 ```
 Input: num = "6777133339"
@@ -21,7 +21,7 @@ Explanation: There are two distinct good integers: "777" and "333".
 "777" is the largest, so we return "777".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: num = "2300019"
@@ -29,7 +29,7 @@ Output: "000"
 Explanation: "000" is the only good integer.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: num = "42352338"
@@ -37,9 +37,7 @@ Output: ""
 Explanation: No substring of length 3 consists of only one unique digit. Therefore, there are no good integers.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 3 <= num.length <= 1000
-- num only consists of digits.
-```
+- - `3` <= num.length` <= `1000`
+- - num only consists of digits.

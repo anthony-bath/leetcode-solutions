@@ -1,4 +1,4 @@
-## 1957. Delete Characters to Make Fancy String
+# 1957. Delete Characters to Make Fancy String
 
 A fancy string is a string where no three consecutive characters are equal.
 
@@ -6,7 +6,7 @@ Given a string `s`, delete the minimum possible number of characters from `s` to
 
 Return the final string after the deletion. It can be shown that the answer will always be unique.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "leeetcode"
@@ -16,7 +16,7 @@ Remove an 'e' from the first group of 'e's to create "leetcode".
 No three consecutive characters are equal, so return "leetcode".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "aaabaaaa"
@@ -27,7 +27,7 @@ Remove two 'a's from the second group of 'a's to create "aabaa".
 No three consecutive characters are equal, so return "aabaa".
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "aab"
@@ -35,9 +35,7 @@ Output: "aab"
 Explanation: No three consecutive characters are equal, so return "aab".
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 10^5
-- s consists only of lowercase English letters.
-```
+- - `1` <= s.length` <= `10^5`
+- - `s` consists only of lowercase English letters.

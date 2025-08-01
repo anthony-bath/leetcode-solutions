@@ -1,4 +1,4 @@
-## 824. Goat Latin
+# 824. Goat Latin
 
 You are given a string `sentence` that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 
@@ -13,25 +13,23 @@ We would like to convert the sentence to "Goat Latin" (a made-up language simila
 
 Return the final sentence representing the conversion from sentence to Goat Latin.
 
-Example 1:
+### Example 1:
 
 ```
 Input: sentence = "I speak Goat Latin"
 Output: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: sentence = "The quick brown fox jumped over the lazy dog"
 Output: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= sentence.length <= 150
-sentence consists of English letters and spaces.
-sentence has no leading or trailing spaces.
-All the words in sentence are separated by a single space.
-```
+- `1` <= sentence.length` <= `150`
+- sentence consists of English letters and spaces.
+- sentence has no leading or trailing spaces.
+- All the words in sentence are separated by a single space.

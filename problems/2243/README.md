@@ -1,4 +1,4 @@
-## 2243. Calculate Digit Sum of a String
+# 2243. Calculate Digit Sum of a String
 
 You are given a string `s` consisting of digits and an integer `k`.
 
@@ -10,7 +10,7 @@ A round can be completed if the length of `s` is greater than `k`. In one round,
 
 Return s after all rounds have been completed.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "11111222223", k = 3
@@ -26,7 +26,7 @@ Explanation:
   Now, s.length <= k, so we return "135" as the answer.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "00000000", k = 3
@@ -37,10 +37,8 @@ Then we calculate the digit sum of each group: 0 + 0 + 0 = 0, 0 + 0 + 0 = 0, and
 s becomes "0" + "0" + "0" = "000", whose length is equal to k, so we return "000".
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 100
-- 2 <= k <= 100
-- s consists of digits only.
-```
+- - `1` <= s.length` <= `100`
+- - `2` <= k` <= `100`
+- - `s` consists of digits only.

@@ -1,4 +1,4 @@
-## 1945. Sum of Digits of String After Convert
+# 1945. Sum of Digits of String After Convert
 
 You are given a string `s` consisting of lowercase English letters, and an integer `k`. Your task is to convert the string into an integer by a special process, and then transform it by summing its digits repeatedly `k` times. More specifically, perform the following steps:
 
@@ -14,7 +14,7 @@ For example, if `s = "zbax"` and `k = 2`, then the resulting integer would be `8
 
 Return the resulting integer after performing the operations described above.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "iiii", k = 1
@@ -29,7 +29,7 @@ The operations are as follows:
 Thus the resulting integer is 36.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "leetcode", k = 2
@@ -45,7 +45,7 @@ The operations are as follows:
 Thus the resulting integer is 6.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "zbax", k = 2
@@ -53,10 +53,8 @@ Input: s = "zbax", k = 2
 Output: 8
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 100
-- 1 <= k <= 10
-- s consists of lowercase English letters.
-```
+- - `1` <= s.length` <= `100`
+- - `1` <= k` <= `10`
+- - `s` consists of lowercase English letters.

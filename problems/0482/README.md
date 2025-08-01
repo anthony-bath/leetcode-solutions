@@ -1,4 +1,4 @@
-## 482. License Key Formatting
+# 482. License Key Formatting
 
 You are given a license key represented as a string s that consists of only alphanumeric characters and dashes. The string is separated into `n + 1` groups by n dashes. You are also given an integer `k`.
 
@@ -6,7 +6,7 @@ We want to reformat the string `s` such that each group contains exactly `k` cha
 
 Return the reformatted license key.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "5F3Z-2e-9-w", k = 4
@@ -15,7 +15,7 @@ Explanation: The string s has been split into two parts, each part has 4 charact
 Note that the two extra dashes are not needed and can be removed.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "2-5g-3-J", k = 2
@@ -23,10 +23,8 @@ Output: "2-5G-3J"
 Explanation: The string s has been split into three parts, each part has 2 characters except the first part as it could be shorter as mentioned above.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= s.length <= 10^5
-s consists of English letters, digits, and dashes '-'.
-1 <= k <= 10^4
-```
+- `1` <= s.length` <= `10^5`
+- `s` consists of English letters, digits, and dashes `'-'`.
+- `1` <= k` <= `10^4`

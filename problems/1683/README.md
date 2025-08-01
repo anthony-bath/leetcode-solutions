@@ -1,4 +1,4 @@
-## 1683. Invalid Tweets
+# 1683. Invalid Tweets
 
 Table: Tweets
 
@@ -19,7 +19,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
-Example 1:
+### Example 1:
 
 ```
 Input:

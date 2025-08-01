@@ -1,4 +1,4 @@
-## 202. Happy Number
+# 202. Happy Number
 
 Write an algorithm to determine if a number `n` is happy.
 
@@ -10,7 +10,7 @@ A happy number is a number defined by the following process:
 
 Return `true` if `n` is a happy number, and `false` if not.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 19
@@ -22,15 +22,13 @@ Explanation:
 12 + 02 + 02 = 1
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 2
 Output: false
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 2^31 - 1
-```
+- `1` <= n` <= `2^31` - `1`

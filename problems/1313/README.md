@@ -1,4 +1,4 @@
-## 1313. Decompress Run-Length Encoded List
+# 1313. Decompress Run-Length Encoded List
 
 We are given a list `nums` of integers representing a list compressed with run-length encoding.
 
@@ -6,7 +6,7 @@ Consider each adjacent pair of elements` [freq, val] = [nums[2*i], nums[2*i+1]]`
 
 Return the decompressed list.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [1,2,3,4]
@@ -16,17 +16,15 @@ The second pair [3,4] means we have freq = 3 and val = 4 so we generate [4,4,4].
 At the end the concatenation [2] + [4,4,4] is [2,4,4,4].
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [1,1,2,3]
 Output: [1,3,3]
 ```
 
-Constraints:
+### Constraints:
 
-```
-2 <= nums.length <= 100
-nums.length % 2 == 0
-1 <= nums[i] <= 100
-```
+- `2` <= nums.length` <= `100`
+- nums.length % `2` == `0`
+- `1` <= nums[i]` <= `100`

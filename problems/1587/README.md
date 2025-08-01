@@ -1,8 +1,8 @@
-## 1587. Bank Account Summary II
+# 1587. Bank Account Summary II
 
 Table: `Users`
 
-````
+```
 +--------------+---------+
 | Column Name  | Type    |
 +--------------+---------+
@@ -39,7 +39,7 @@ The result format is in the following example.
 
 
 
-Example 1:
+### Example 1:
 ```
 Input:
 Users table:
@@ -73,4 +73,4 @@ Alice's balance is (7000 + 7000 - 3000) = 11000.
 Bob's balance is 1000.
 Charlie's balance is (6000 + 6000 - 4000) = 8000.
 ```
-````
+```

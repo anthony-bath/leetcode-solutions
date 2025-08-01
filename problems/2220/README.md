@@ -1,4 +1,4 @@
-## 2220. Minimum Bit Flips to Convert Number
+# 2220. Minimum Bit Flips to Convert Number
 
 A bit flip of a number `x` is choosing a bit in the binary representation of `x` and flipping it from either `0` to `1` or `1` to `0`.
 
@@ -6,7 +6,7 @@ For example, for `x = 7`, the binary representation is `111` and we may choose a
 
 Given two integers `start` and `goal`, return the minimum number of bit flips to convert `start` to `goal`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: start = 10, goal = 7
@@ -18,7 +18,7 @@ Explanation: The binary representation of 10 and 7 are 1010 and 0111 respectivel
 It can be shown we cannot convert 10 to 7 in less than 3 steps. Hence, we return 3.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: start = 3, goal = 4
@@ -30,8 +30,6 @@ Explanation: The binary representation of 3 and 4 are 011 and 100 respectively. 
 It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 3.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 0 <= start, goal <= 10^9
-```
+- - `0` <= start`, `goal <= `10`^`9`

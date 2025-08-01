@@ -1,4 +1,4 @@
-## 8. String to Integer (atoi)
+# 8. String to Integer (atoi)
 
 Implement the `myAtoi(string s)` function, which converts a string to a `32`-bit signed integer (similar to C/C++'s `atoi` function).
 
@@ -16,7 +16,7 @@ Note:
 Only the space character ' ' is considered a whitespace character.
 Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "42"
@@ -32,7 +32,7 @@ The parsed integer is 42.
 Since 42 is in the range [-2^31, 2^31 - 1], the final result is 42.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = " -42"
@@ -48,7 +48,7 @@ The parsed integer is -42.
 Since -42 is in the range [-2^31, 2^31 - 1], the final result is -42.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "4193 with words"
@@ -64,9 +64,7 @@ The parsed integer is 4193.
 Since 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.
 ```
 
-Constraints:
+### Constraints:
 
-```
-0 <= s.length <= 200
-s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
-```
+- `0` <= s.length` <= `200`
+- `s` consists of English letters (lower-case and upper-case), digits (`0`- `-9`), `' '`, `'+'`, `'-'`, and `'.'`.

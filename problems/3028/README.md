@@ -1,4 +1,4 @@
-## 3028. Ant on the Boundary
+# 3028. Ant on the Boundary
 
 An ant is on a boundary. It sometimes goes left and sometimes right.
 
@@ -14,7 +14,7 @@ Notes:
 There is an infinite space on both sides of the boundary.
 We check whether the ant is on the boundary only after it has moved `|nums[i]|` units. In other words, if the ant crosses the boundary during its movement, it does not count.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [2,3,-5]
@@ -25,7 +25,7 @@ After the third step, the ant is on the boundary.
 So the answer is 1.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [3,2,-3,-4]
@@ -37,7 +37,7 @@ After the fourth step, the ant is 2 steps to the left of the boundary.
 The ant never returned to the boundary, so the answer is 0.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= nums.length <= 100`
 - `-10 <= nums[i] <= 10`

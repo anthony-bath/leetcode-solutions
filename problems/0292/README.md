@@ -1,4 +1,4 @@
-## 292. Nim Game
+# 292. Nim Game
 
 You are playing the following Nim Game with your friend:
 
@@ -9,7 +9,7 @@ You are playing the following Nim Game with your friend:
 
 Given `n`, the number of stones in the heap, return `true` if you can win the game assuming both you and your friend play optimally, otherwise return `false`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 4
@@ -21,22 +21,20 @@ Explanation: These are the possible outcomes:
 In all outcomes, your friend wins.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 1
 Output: true
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: n = 2
 Output: true
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 2^31 - 1
-```
+- `1` <= n` <= `2^31` - `1`

@@ -1,4 +1,4 @@
-## 2224. Minimum Number of Operations to Convert Time
+# 2224. Minimum Number of Operations to Convert Time
 
 You are given two strings `current` and `correct` representing two 24-hour times.
 
@@ -8,7 +8,7 @@ In one operation you can increase the time current by `1`, `5`, `15`, or `60` mi
 
 Return the minimum number of operations needed to convert current to correct.
 
-Example 1:
+### Example 1:
 
 ```
 Input: current = "02:30", correct = "04:35"
@@ -21,7 +21,7 @@ We can convert current to correct in 3 operations as follows:
 It can be proven that it is not possible to convert current to correct in fewer than 3 operations.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: current = "11:00", correct = "11:01"
@@ -29,9 +29,7 @@ Output: 1
 Explanation: We only have to add one minute to current, so the minimum number of operations needed is 1.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- current and correct are in the format "HH:MM"
-- current <= correct
-```
+- - current and correct are in the format "HH:MM"
+- - `current <= correct`

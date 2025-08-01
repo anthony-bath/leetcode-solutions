@@ -1,4 +1,4 @@
-## 65. Valid Number
+# 65. Valid Number
 
 Given a string `s`, return whether `s` is a valid number.
 
@@ -19,7 +19,7 @@ A decimal number is defined with an optional sign `'-'` or `'+'` followed by one
 
 The digits are defined as one or more digits.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "0"
@@ -27,7 +27,7 @@ Input: s = "0"
 Output: true
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "e"
@@ -35,7 +35,7 @@ Input: s = "e"
 Output: false
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "."
@@ -43,9 +43,7 @@ Input: s = "."
 Output: false
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 20
-- s consists of only English letters (both uppercase and lowercase), digits (0-9), plus '+', minus '-', or dot '.'.
-```
+- - `1` <= s.length` <= `20`
+- - `s` consists of only English letters (both uppercase and lowercase), digits (`0`- `-9`), plus `'+'`, minus `'-'`, or dot `'.'`.

@@ -1,4 +1,4 @@
-## 832. Flipping an Image
+# 832. Flipping an Image
 
 Given an `n x n` binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
 
@@ -10,7 +10,7 @@ To invert an image means that each `0` is replaced by `1`, and each `1` is repla
 
 - For example, inverting [0,1,1] results in [1,0,0].
 
-Example 1:
+### Example 1:
 
 ```
 Input: image = [[1,1,0],[1,0,1],[0,0,0]]
@@ -19,7 +19,7 @@ Explanation: First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].
 Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: image = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
@@ -28,11 +28,9 @@ Explanation: First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].
 Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 ```
 
-Constraints:
+### Constraints:
 
-```
-n == image.length
-n == image[i].length
-1 <= n <= 20
-images[i][j] is either 0 or 1.
-```
+- `n == image.length`
+- `n == image[i]`.length
+- `1` <= n` <= `20`
+- images[i][j] is either `0` or `1`.

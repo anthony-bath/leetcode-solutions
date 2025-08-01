@@ -1,4 +1,4 @@
-## 2269. Find the K-Beauty of a Number
+# 2269. Find the K-Beauty of a Number
 
 The k-beauty of an integer `num` is defined as the number of substrings of `num` when it is read as a string that meet the following conditions:
 
@@ -13,7 +13,7 @@ Note:
 - `0` is not a divisor of any value.
 - A substring is a contiguous sequence of characters in a string.
 
-Example 1:
+### Example 1:
 
 ```
 Input: num = 240, k = 2
@@ -24,7 +24,7 @@ Explanation: The following are the substrings of num of length k:
 Therefore, the k-beauty is 2.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: num = 430043, k = 2
@@ -38,9 +38,7 @@ Explanation: The following are the substrings of num of length k:
 Therefore, the k-beauty is 2.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= num <= 109
-- 1 <= k <= num.length (taking num as a string)
-```
+- - `1` <= num` <= `109`
+- - `1` <= k` <= num.length (taking num as a string)

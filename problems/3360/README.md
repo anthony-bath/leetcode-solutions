@@ -1,4 +1,4 @@
-## 3360. Stone Removal Game
+# 3360. Stone Removal Game
 
 Alice and Bob are playing a game where they take turns removing stones from a pile, with Alice going first.
 
@@ -8,7 +8,7 @@ Alice and Bob are playing a game where they take turns removing stones from a pi
 
 Given a positive integer `n`, return true if Alice wins the game and false otherwise.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 12
@@ -21,7 +21,7 @@ Alice removes 10 stones on her first turn, leaving 2 stones for Bob.
 Bob cannot remove 9 stones, so Alice wins.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 1
@@ -33,6 +33,6 @@ Explanation:
 Alice cannot remove 10 stones, so Alice loses.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= n <= 50`

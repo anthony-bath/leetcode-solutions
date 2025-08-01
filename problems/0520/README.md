@@ -1,4 +1,4 @@
-## 520. Detect Capital
+# 520. Detect Capital
 
 We define the usage of capitals in a word to be right when one of the following cases holds:
 
@@ -8,23 +8,21 @@ We define the usage of capitals in a word to be right when one of the following 
 
 Given a string `word`, return `true` if the usage of capitals in it is right.
 
-Example 1:
+### Example 1:
 
 ```
 Input: word = "USA"
 Output: true
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: word = "FlaG"
 Output: false
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= word.length <= 100
-word consists of lowercase and uppercase English letters.
-```
+- `1` <= word.length` <= `100`
+- word consists of lowercase and uppercase English letters.

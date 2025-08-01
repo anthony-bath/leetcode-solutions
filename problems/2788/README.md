@@ -1,4 +1,4 @@
-## 2788. Split Strings by Separator
+# 2788. Split Strings by Separator
 
 Given an array of strings `words` and a character `separator`, split each string in `words` by `separator`.
 
@@ -10,7 +10,7 @@ Notes
 - A split may result in more than two strings.
 - The resulting strings must maintain the same order as they were initially given.
 
-Example 1:
+### Example 1:
 
 ```
 Input: words = ["one.two.three","four.five","six"], separator = "."
@@ -24,7 +24,7 @@ Explanation: In this example we split as follows:
 Hence, the resulting array is ["one","two","three","four","five","six"].
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: words = ["$easy$","$problem$"], separator = "$"
@@ -37,7 +37,7 @@ Explanation: In this example we split as follows:
 Hence, the resulting array is ["easy","problem"].
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: words = ["|||"], separator = "|"
@@ -45,7 +45,7 @@ Output: []
 Explanation: In this example the resulting split of "|||" will contain only empty strings, so we return an empty array [].
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= words.length <= 100`
 - `1 <= words[i].length <= 20`

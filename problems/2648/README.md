@@ -1,4 +1,4 @@
-## 2648. Generate Fibonacci Sequence
+# 2648. Generate Fibonacci Sequence
 
 Write a generator function that returns a generator object which yields the fibonacci sequence.
 
@@ -6,7 +6,7 @@ The fibonacci sequence is defined by the relation `Xn = Xn-1 + Xn-2`.
 
 The first few numbers of the series are `0, 1, 1, 2, 3, 5, 8, 13`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: callCount = 5
@@ -20,7 +20,7 @@ gen.next().value; // 2
 gen.next().value; // 3
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: callCount = 0
@@ -28,6 +28,6 @@ Output: []
 Explanation: gen.next() is never called so nothing is outputted
 ```
 
-Constraints:
+### Constraints:
 
 - `0 <= callCount <= 50`

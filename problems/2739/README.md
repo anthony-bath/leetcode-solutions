@@ -1,4 +1,4 @@
-## 2739. Total Distance Traveled
+# 2739. Total Distance Traveled
 
 A truck has two fuel tanks. You are given two integers, `mainTank` representing the fuel present in the main tank in liters and `additionalTank` representing the fuel present in the additional tank in liters.
 
@@ -8,7 +8,7 @@ Return the maximum distance which can be traveled.
 
 Note: Injection from the additional tank is not continuous. It happens suddenly and immediately for every 5 liters consumed.
 
-Example 1:
+### Example 1:
 
 ```
 Input: mainTank = 5, additionalTank = 10
@@ -19,7 +19,7 @@ After spending another 1 litre of fuel, no fuel gets injected in the main tank a
 Total distance traveled is 60km.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: mainTank = 1, additionalTank = 2
@@ -29,6 +29,6 @@ After spending 1 litre of fuel, the main tank becomes empty.
 Total distance traveled is 10km.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= mainTank, additionalTank <= 100`

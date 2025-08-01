@@ -1,4 +1,4 @@
-## 1544. Make The String Great
+# 1544. Make The String Great
 
 Given a string `s` of lower and upper case English letters.
 
@@ -13,7 +13,7 @@ Return the string after making it good. The answer is guaranteed to be unique un
 
 Notice that an empty string is also good.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "leEeetcode"
@@ -21,7 +21,7 @@ Output: "leetcode"
 Explanation: In the first step, either you choose i = 1 or i = 2, both will result "leEeetcode" to be reduced to "leetcode".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "abBAcC"
@@ -31,16 +31,14 @@ Explanation: We have many possible scenarios, and all lead to the same answer. F
 "abBAcC" --> "abBA" --> "aA" --> ""
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "s"
 Output: "s"
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= s.length <= 100
-s contains only lower and upper case English letters.
-```
+- `1` <= s.length` <= `100`
+- s contains only lower and upper case English letters.

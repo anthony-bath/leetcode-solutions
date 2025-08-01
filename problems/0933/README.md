@@ -1,4 +1,4 @@
-## 933. Number of Recent Calls
+# 933. Number of Recent Calls
 
 You have a `RecentCounter` class which counts the number of recent requests within a certain time frame.
 
@@ -9,7 +9,7 @@ Implement the `RecentCounter` class:
 
 It is guaranteed that every call to ping uses a strictly larger value of t than the previous call.
 
-Example 1:
+### Example 1:
 
 ```
 Input
@@ -29,10 +29,8 @@ recentCounter.ping(3001); // requests = [1, 100, 3001], range is [1,3001], retur
 recentCounter.ping(3002); // requests = [1, 100, 3001, 3002], range is [2,3002], return 3
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= t <= 10^9
-Each test case will call ping with strictly increasing values of t.
-At most 10^4 calls will be made to ping.
-```
+- `1` <= t` <= `10^9`
+- Each test case will call ping with strictly increasing values of t.
+- At most `10^4` calls will be made to ping.

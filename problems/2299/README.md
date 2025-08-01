@@ -1,4 +1,4 @@
-## 2299. Strong Password Checker II
+# 2299. Strong Password Checker II
 
 A password is said to be strong if it satisfies all the following criteria:
 
@@ -11,7 +11,7 @@ A password is said to be strong if it satisfies all the following criteria:
 
 Given a string password, return true if it is a strong password. Otherwise, return false.
 
-Example 1:
+### Example 1:
 
 ```
 Input: password = "IloveLe3tcode!"
@@ -19,7 +19,7 @@ Output: true
 Explanation: The password meets all the requirements. Therefore, we return true.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: password = "Me+You--IsMyDream"
@@ -27,7 +27,7 @@ Output: false
 Explanation: The password does not contain a digit and also contains 2 of the same character in adjacent positions. Therefore, we return false.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: password = "1aB!"
@@ -35,9 +35,7 @@ Output: false
 Explanation: The password does not meet the length requirement. Therefore, we return false.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= password.length <= 100
-- password consists of letters, digits, and special characters: "!@#$%^&\*()-+".
-```
+- - `1` <= password.length` <= `100`
+- - password consists of letters, digits, and special characters: "!@#$%^&\*()-+".

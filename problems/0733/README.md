@@ -1,4 +1,4 @@
-## 733. Flood Fill
+# 733. Flood Fill
 
 An image is represented by an `m x n` integer grid image where `image[i][j]` represents the pixel value of the image.
 
@@ -8,7 +8,7 @@ To perform a flood fill, consider the starting pixel, plus any pixels connected 
 
 Return the modified image after performing the flood fill.
 
-Example 1:
+### Example 1:
 
 ```
 Input: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
@@ -17,7 +17,7 @@ Explanation: From the center of the image with position (sr, sc) = (1, 1) (i.e.,
 Note the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0
@@ -25,13 +25,11 @@ Output: [[0,0,0],[0,0,0]]
 Explanation: The starting pixel is already colored 0, so no changes are made to the image.
 ```
 
-Constraints:
+### Constraints:
 
-```
-m == image.length
-n == image[i].length
-1 <= m, n <= 50
-0 <= image[i][j], color < 2^16
-0 <= sr < m
-0 <= sc < n
-```
+- `m == image.length`
+- `n == image[i]`.length
+- `1` <= m`, `n <= `50`
+- `0` <= image[i][j]`, `color < `2`^`16`
+- `0` <= sr` < m
+- `0` <= sc` < n

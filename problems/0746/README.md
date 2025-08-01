@@ -1,4 +1,4 @@
-## 746. Min Cost Climbing Stairs
+# 746. Min Cost Climbing Stairs
 
 You are given an integer array `cost` where `cost[i]` is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
 
@@ -6,7 +6,7 @@ You can either start from the step with index 0, or the step with index 1.
 
 Return the minimum cost to reach the top of the floor.
 
-Example 1:
+### Example 1:
 
 ```
 Input: cost = [10,15,20]
@@ -16,7 +16,7 @@ Explanation: You will start at index 1.
 The total cost is 15.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: cost = [1,100,1,1,1,100,1,1,100,1]
@@ -31,9 +31,7 @@ Explanation: You will start at index 0.
 The total cost is 6.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 2 <= cost.length <= 1000
-- 0 <= cost[i] <= 999
-```
+- - `2` <= cost.length` <= `1000`
+- - `0` <= cost[i]` <= `999`

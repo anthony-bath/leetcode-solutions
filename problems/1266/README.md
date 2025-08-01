@@ -1,4 +1,4 @@
-## 1266. Minimum Time Visiting All Points
+# 1266. Minimum Time Visiting All Points
 
 On a 2D plane, there are `n` points with integer coordinates `points[i] = [xi, yi]`. Return the minimum time in seconds to visit all the points in the order given by points.
 
@@ -11,7 +11,7 @@ You can move according to these rules:
 - You have to visit the points in the same order as they appear in the array.
 - You are allowed to pass through points that appear later in the order, but these do not count as visits.
 
-Example 1:
+### Example 1:
 
 ```
 Input: points = [[1,1],[3,4],[-1,0]]
@@ -22,18 +22,16 @@ Time from [3,4] to [-1,0] = 4 seconds
 Total time = 7 seconds
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: points = [[3,2],[-2,2]]
 Output: 5
 ```
 
-Constraints:
+### Constraints:
 
-```
-points.length == n
-1 <= n <= 100
-points[i].length == 2
--1000 <= points[i][0], points[i][1] <= 1000
-```
+- `points.length == n`
+- `1` <= n` <= `100`
+- points[i].`length == `2`
+- - `-1000` <= points[i][`0`]`, `points[i][`1`] <= `1000`

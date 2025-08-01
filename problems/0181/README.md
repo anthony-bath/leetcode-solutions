@@ -1,4 +1,4 @@
-## 181. Employees Earning More Than Their Managers
+# 181. Employees Earning More Than Their Managers
 
 Table: Employee
 
@@ -21,7 +21,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
-Example 1:
+### Example 1:
 
 ```
 Input:

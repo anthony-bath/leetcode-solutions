@@ -1,4 +1,4 @@
-## 1581. Customer Who Visited but Did Not Make Any Transactions
+# 1581. Customer Who Visited but Did Not Make Any Transactions
 
 Table: `Visits`
 
@@ -33,7 +33,7 @@ Return the result table sorted in any order.
 
 The result format is in the following example.
 
-Example 1:
+### Example 1:
 
 ```
 Input:

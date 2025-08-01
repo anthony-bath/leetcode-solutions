@@ -1,4 +1,4 @@
-## 1694. Reformat Phone Number
+# 1694. Reformat Phone Number
 
 You are given a phone number as a string `number`. `number` consists of digits, spaces ' ', and/or dashes '-'.
 
@@ -12,7 +12,7 @@ The blocks are then joined by dashes. Notice that the reformatting process shoul
 
 Return the phone number after formatting.
 
-Example 1:
+### Example 1:
 
 ```
 Input: number = "1-23-45 6"
@@ -23,7 +23,7 @@ Step 2: There are 3 digits remaining, so put them in a single block of length 3.
 Joining the blocks gives "123-456".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: number = "123 4-567"
@@ -34,7 +34,7 @@ Step 2: There are 4 digits left, so split them into two blocks of length 2. The 
 Joining the blocks gives "123-45-67".
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: number = "123 4-5678"
@@ -46,10 +46,8 @@ Step 3: There are 2 digits left, so put them in a single block of length 2. The 
 Joining the blocks gives "123-456-78".
 ```
 
-Constraints:
+### Constraints:
 
-```
-2 <= number.length <= 100
-number consists of digits and the characters '-' and ' '.
-There are at least two digits in number.
-```
+- `2` <= number.length` <= `100`
+- number consists of digits and the characters `'-'` and `' '`.
+- There are at least two digits in number.

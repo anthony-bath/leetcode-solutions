@@ -1,4 +1,4 @@
-## 1507. Reformat Date
+# 1507. Reformat Date
 
 Given a date string in the form Day Month Year, where:
 
@@ -11,29 +11,27 @@ Given a date string in the form Day Month Year, where:
 - `MM` denotes the 2 digit month.
 - `DD` denotes the 2 digit day.
 
-Example 1:
+### Example 1:
 
 ```
 Input: date = "20th Oct 2052"
 Output: "2052-10-20"
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: date = "6th Jun 1933"
 Output: "1933-06-06"
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: date = "26th May 1960"
 Output: "1960-05-26"
 ```
 
-Constraints:
+### Constraints:
 
-```
-The given dates are guaranteed to be valid, so no error handling is necessary.
-```
+- The given dates are guaranteed to be valid, so no error handling is necessary.

@@ -1,4 +1,4 @@
-## 3545. Minimum Deletions for At Most K Distinct Characters
+# 3545. Minimum Deletions for At Most K Distinct Characters
 
 You are given a string `s` consisting of lowercase English letters, and an integer `k`.
 
@@ -6,7 +6,7 @@ Your task is to delete some (possibly none) of the characters in the string so t
 
 Return the minimum number of deletions required to achieve this.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "abc", k = 2
@@ -20,7 +20,7 @@ Since we can have at most k = 2 distinct characters, remove all occurrences of a
 For example, removing all occurrences of 'c' results in at most k distinct characters. Thus, the answer is 1.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "aabb", k = 2
@@ -33,7 +33,7 @@ s has two distinct characters ('a' and 'b') with frequencies of 2 and 2, respect
 Since we can have at most k = 2 distinct characters, no deletions are required. Thus, the answer is 0.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "yyyzz", k = 1
@@ -47,7 +47,7 @@ Since we can have at most k = 1 distinct character, remove all occurrences of an
 Removing all 'z' results in at most k distinct characters. Thus, the answer is 2.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= s.length <= 16`
 - `1 <= k <= 16`

@@ -1,4 +1,4 @@
-## 2169. Count Operations to Obtain Zero
+# 2169. Count Operations to Obtain Zero
 
 You are given two non-negative integers `num1` and `num2`.
 
@@ -8,7 +8,7 @@ In one operation, if `num1 >= num2`, you must subtract `num2` from `num1`, other
 
 Return the number of operations required to make either `num1 = 0` or `num2 = 0`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: num1 = 2, num2 = 3
@@ -22,7 +22,7 @@ Explanation:
   So the total number of operations required is 3.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: num1 = 10, num2 = 10
@@ -35,8 +35,6 @@ Explanation:
   So the total number of operations required is 1.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 0 <= num1, num2 <= 10^5
-```
+- - `0` <= num1`, `num2 <= `10`^`5`

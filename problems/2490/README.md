@@ -1,4 +1,4 @@
-## 2490. Circular Sentence
+# 2490. Circular Sentence
 
 A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
 

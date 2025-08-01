@@ -1,4 +1,4 @@
-## 3516. Find Closest Person
+# 3516. Find Closest Person
 
 You are given three integers `x`, `y`, and `z`, representing the positions of three people on a number line:
 
@@ -16,7 +16,7 @@ Determine which person reaches Person 3 first:
 
 Return the result accordingly.
 
-Example 1:
+### Example 1:
 
 ```
 Input: x = 2, y = 7, z = 4
@@ -30,7 +30,7 @@ Person 2 is at position 7 and can reach Person 3 in 3 steps.
 Since Person 1 reaches Person 3 first, the output is 1.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: x = 2, y = 5, z = 6
@@ -44,7 +44,7 @@ Person 2 is at position 5 and can reach Person 3 in 1 step.
 Since Person 2 reaches Person 3 first, the output is 2.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: x = 1, y = 5, z = 3
@@ -58,6 +58,6 @@ Person 2 is at position 5 and can reach Person 3 in 2 steps.
 Since both Person 1 and Person 2 reach Person 3 at the same time, the output is 0.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= x, y, z <= 100`

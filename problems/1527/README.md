@@ -1,4 +1,4 @@
-## 1527. Patients With a Condition
+# 1527. Patients With a Condition
 
 Table: `Patients`
 
@@ -21,7 +21,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
-Example 1:
+### Example 1:
 
 ```
 Input:

@@ -1,4 +1,4 @@
-## 3502. Minimum Cost to Reach Every Position
+# 3502. Minimum Cost to Reach Every Position
 
 You are given an integer array `cost` of size `n`. You are currently at position `n` (at the end of the line) in a line of `n + 1` people (numbered from `0` to `n`).
 
@@ -11,7 +11,7 @@ You are allowed to swap places with people as follows:
 
 Return an array `answer` of size `n`, where `answer[i]` is the minimum total cost to reach each position `i` in the line.
 
-Example 1:
+### Example 1:
 
 ```
 Input: cost = [5,3,4,1,3,2]
@@ -30,7 +30,7 @@ i = 4. We can swap with person 3 for a cost of 1, then swap with person 4 for fr
 i = 5. We can swap with person 3 for a cost of 1, then swap with person 5 for free.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: cost = [1,2,4,6,7]
@@ -42,7 +42,7 @@ Explanation:
 We can swap with person 0 for a cost of 1, then we will be able to reach any position i for free.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= n == cost.length <= 100`
 - `1 <= cost[i] <= 100`

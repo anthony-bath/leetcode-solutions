@@ -1,4 +1,4 @@
-## 1646. Get Maximum in Generated Array
+# 1646. Get Maximum in Generated Array
 
 You are given an integer `n`. A `0`-indexed integer array nums of length `n + 1` is generated in the following way:
 
@@ -9,7 +9,7 @@ You are given an integer `n`. A `0`-indexed integer array nums of length `n + 1`
 
 Return the maximum integer in the array nums​​​.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 7
@@ -26,7 +26,7 @@ Explanation: According to the given rules:
 Hence, nums = [0,1,1,2,1,3,2,3], and the maximum is max(0,1,1,2,1,3,2,3) = 3.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 2
@@ -34,7 +34,7 @@ Output: 1
 Explanation: According to the given rules, nums = [0,1,1]. The maximum is max(0,1,1) = 1.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: n = 3
@@ -43,8 +43,6 @@ Explanation: According to the given rules, nums = [0,1,1,2]. The maximum is max(
 
 ```
 
-Constraints:
+### Constraints:
 
-```
-0 <= n <= 100
-```
+- `0` <= n` <= `100`

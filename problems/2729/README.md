@@ -1,4 +1,4 @@
-## 2729. Check if The Number is Fascinating
+# 2729. Check if The Number is Fascinating
 
 You are given an integer `n` that consists of exactly 3 digits.
 

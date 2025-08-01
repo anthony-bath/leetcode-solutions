@@ -1,10 +1,10 @@
-## 3340. Check Balanced String
+# 3340. Check Balanced String
 
 You are given a string `num` consisting of only digits. A string of digits is called balanced if the sum of the digits at even indices is equal to the sum of digits at odd indices.
 
 Return true if `num` is balanced, otherwise return false.
 
-Example 1:
+### Example 1:
 
 ```
 Input: num = "1234"
@@ -17,7 +17,7 @@ The sum of digits at even indices is 1 + 3 == 4, and the sum of digits at odd in
 Since 4 is not equal to 6, num is not balanced.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: num = "24123"
@@ -30,7 +30,7 @@ The sum of digits at even indices is 2 + 1 + 3 == 6, and the sum of digits at od
 Since both are equal the num is balanced.
 ```
 
-Constraints:
+### Constraints:
 
 - `2 <= num.length <= 100`
 - `num` consists of digits only

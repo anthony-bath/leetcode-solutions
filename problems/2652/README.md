@@ -1,4 +1,4 @@
-## 2652. Sum Multiples
+# 2652. Sum Multiples
 
 Given a positive integer `n`, find the sum of all integers in the range `[1, n]` inclusive that are divisible by `3`, `5`, or `7`.
 

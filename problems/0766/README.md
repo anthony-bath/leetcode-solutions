@@ -1,10 +1,10 @@
-## 766. Toeplitz Matrix
+# 766. Toeplitz Matrix
 
 Given an `m x n` matrix, return `true` if the matrix is Toeplitz. Otherwise, return `false`.
 
 A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
 
-Example 1:
+### Example 1:
 
 ```
 Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
@@ -15,7 +15,7 @@ In the above grid, the diagonals are:
 In each diagonal all elements are the same, so the answer is True.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: matrix = [[1,2],[2,2]]
@@ -24,7 +24,7 @@ Explanation:
 The diagonal "[1, 2]" has different elements.
 ```
 
-Constraints:
+### Constraints:
 
 - `m == matrix.length`
 - `n == matrix[i].length`

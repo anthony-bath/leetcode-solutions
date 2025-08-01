@@ -1,4 +1,4 @@
-## 26. Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
 
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
 
@@ -25,7 +25,7 @@ for (int i = 0; i < k; i++) {
 
 If all assertions pass, then your solution will be accepted.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [1,1,2]
@@ -34,7 +34,7 @@ Explanation: Your function should return k = 2, with the first two elements of n
 It does not matter what you leave beyond the returned k (hence they are underscores).
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [0,0,1,1,1,2,2,3,3,4]
@@ -43,7 +43,7 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= nums.length <= 3 * 10^4`
 - `-100 <= nums[i] <= 100`

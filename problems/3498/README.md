@@ -1,4 +1,4 @@
-## 3498. Reverse Degree of a String
+# 3498. Reverse Degree of a String
 
 Given a string `s`, calculate its reverse degree.
 
@@ -9,7 +9,7 @@ The reverse degree is calculated as follows:
 
 Return the reverse degree of `s`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "abc"
@@ -26,7 +26,7 @@ Explanation:
 The reversed degree is 26 + 50 + 72 = 148.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "zaza"
@@ -43,7 +43,7 @@ Explanation:
 The reverse degree is 1 + 52 + 3 + 104 = 160.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= s.length <= 1000`
 - `s` contains only lowercase English letters.

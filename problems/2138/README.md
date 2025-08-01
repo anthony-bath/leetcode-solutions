@@ -1,4 +1,4 @@
-## 2138. Divide a String Into Groups of Size k
+# 2138. Divide a String Into Groups of Size k
 
 A string `s` can be partitioned into groups of size `k` using the following procedure:
 
@@ -9,7 +9,7 @@ Note that the partition is done so that after removing the fill character from t
 
 Given the string `s`, the size of each group `k` and the character `fill`, return a string array denoting the composition of every group `s` has been divided into, using the above procedure.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "abcdefghi", k = 3, fill = "x"
@@ -22,7 +22,7 @@ Since all groups can be completely filled by characters from the string, we do n
 Thus, the groups formed are "abc", "def", and "ghi".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "abcdefghij", k = 3, fill = "x"
@@ -33,11 +33,9 @@ For the last group, we can only use the character 'j' from the string. To comple
 Thus, the 4 groups formed are "abc", "def", "ghi", and "jxx".
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 100
-- s consists of lowercase English letters only.
-- 1 <= k <= 100
-- fill is a lowercase English letter.
-```
+- - `1` <= s.length` <= `100`
+- - `s` consists of lowercase English letters only.
+- - `1` <= k` <= `100`
+- - fill is a lowercase English letter.

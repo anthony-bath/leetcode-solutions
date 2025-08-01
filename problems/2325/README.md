@@ -1,4 +1,4 @@
-## 2325. Decode the Message
+# 2325. Decode the Message
 
 You are given the strings `key` and `message`, which represent a cipher key and a secret message, respectively. The steps to decode message are as follows:
 
@@ -11,7 +11,7 @@ For example, given `key = "happy boy"` (actual `key` would have at least one ins
 
 Return the decoded message.
 
-Example 1:
+### Example 1:
 
 ```
 Input: key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
@@ -20,7 +20,7 @@ Explanation: The diagram above shows the substitution table.
 It is obtained by taking the first appearance of each letter in "the quick brown fox jumps over the lazy dog".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
@@ -29,7 +29,7 @@ Explanation: The diagram above shows the substitution table.
 It is obtained by taking the first appearance of each letter in "eljuxhpwnyrdgtqkviszcfmabo".
 ```
 
-Constraints:
+### Constraints:
 
 - `26 <= key.length <= 2000`
 - `key` consists of lowercase English letters and ' '.

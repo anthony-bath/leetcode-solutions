@@ -1,4 +1,4 @@
-## 1389. Create Target Array in the Given Order
+# 1389. Create Target Array in the Given Order
 
 Given two arrays of integers `nums` and `index`. Your task is to create target array under the following rules:
 
@@ -10,7 +10,7 @@ Return the target array.
 
 It is guaranteed that the insertion operations will be valid.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
@@ -24,7 +24,7 @@ nums       index     target
 4            1        [0,4,1,3,2]
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [1,2,3,4,0], index = [0,1,2,3,0]
@@ -38,18 +38,16 @@ nums       index     target
 0            0        [0,1,2,3,4]
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: nums = [1], index = [0]
 Output: [1]
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= nums.length, index.length <= 100
-nums.length == index.length
-0 <= nums[i] <= 100
-0 <= index[i] <= i
-```
+- `1` <= nums.length`, `index.length <= `100`
+- `nums.length == index.length`
+- `0` <= nums[i]` <= `100`
+- `0` <= index[i]` <= i

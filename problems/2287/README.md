@@ -1,10 +1,10 @@
-## 2287. Rearrange Characters to Make Target String
+# 2287. Rearrange Characters to Make Target String
 
 You are given two `0`-indexed strings `s` and `target`. You can take some letters from `s` and rearrange them to form new strings.
 
 Return the maximum number of copies of `target` that can be formed by taking letters from `s` and rearranging them.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "ilovecodingonleetcode", target = "code"
@@ -16,7 +16,7 @@ The strings that are formed are "ecod" and "code" which can both be rearranged i
 We can make at most two copies of "code", so we return 2.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "abcba", target = "abc"
@@ -27,7 +27,7 @@ We can make at most one copy of "abc", so we return 1.
 Note that while there is an extra 'a' and 'b' at indices 3 and 4, we cannot reuse the letter 'c' at index 2, so we cannot make a second copy of "abc".
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "abbaccaddaeea", target = "aaaaa"
@@ -37,10 +37,8 @@ We can make one copy of "aaaaa" by taking the letters at indices 0, 3, 6, 9, and
 We can make at most one copy of "aaaaa", so we return 1.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= s.length <= 100
-- 1 <= target.length <= 10
-- s and target consist of lowercase English letters.
-```
+- - `1` <= s.length` <= `100`
+- - `1` <= target.length` <= `10`
+- - `s` and target consist of lowercase English letters.

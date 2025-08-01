@@ -1,4 +1,4 @@
-## 830. Positions of Large Groups
+# 830. Positions of Large Groups
 
 In a string `s` of lowercase letters, these letters form consecutive groups of the same character.
 
@@ -10,7 +10,7 @@ A group is considered large if it has `3` or more characters.
 
 Return the intervals of every large group sorted in increasing order by start index.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "abbxxxxzzy"
@@ -18,7 +18,7 @@ Output: [[3,6]]
 Explanation: "xxxx" is the only large group with start index 3 and end index 6.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "abc"
@@ -26,7 +26,7 @@ Output: []
 Explanation: We have groups "a", "b", and "c", none of which are large groups.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "abcdddeeeeaabbbcd"
@@ -34,9 +34,7 @@ Output: [[3,5],[6,9],[12,14]]
 Explanation: The large groups are "ddd", "eeee", and "bbb".
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= s.length <= 1000
-s contains lowercase English letters only.
-```
+- `1` <= s.length` <= `1000`
+- s contains lowercase English letters only.

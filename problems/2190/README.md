@@ -1,4 +1,4 @@
-## 2190. Most Frequent Number Following Key In an Array
+# 2190. Most Frequent Number Following Key In an Array
 
 You are given a `0`-indexed integer array `nums`. You are also given an integer `key`, which is present in `nums`.
 
@@ -10,7 +10,7 @@ For every unique integer target in `nums`, count the number of times target imme
 
 Return the target with the maximum count. The test cases will be generated such that the target with maximum count is unique.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [1,100,200,1,100], key = 1
@@ -19,7 +19,7 @@ Explanation: For target = 100, there are 2 occurrences at indices 1 and 4 which 
 No other integers follow an occurrence of key, so we return 100.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [2,2,2,2,3], key = 2
@@ -29,10 +29,8 @@ For target = 3, there is only one occurrence at index 4 which follows an occurre
 target = 2 has the maximum number of occurrences following an occurrence of key, so we return 2.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 2 <= nums.length <= 1000
-- 1 <= nums[i] <= 1000
-- The test cases will be generated such that the answer is unique.
-```
+- - `2` <= nums.length` <= `1000`
+- - `1` <= nums[i]` <= `1000`
+- - The test cases will be generated such that the answer is unique.

@@ -1,4 +1,4 @@
-## 1337. The K Weakest Rows in a Matrix
+# 1337. The K Weakest Rows in a Matrix
 
 You are given an `m x n` binary matrix mat of `1`'s (representing soldiers) and `0`'s (representing civilians). The soldiers are positioned in front of the civilians. That is, all the `1`'s will appear to the left of all the `0`'s in each row.
 
@@ -9,7 +9,7 @@ A row `i` is weaker than a row `j` if one of the following is true:
 
 Return the indices of the `k` weakest rows in the matrix ordered from weakest to strongest.
 
-Example 1:
+### Example 1:
 
 ```
 Input: mat =
@@ -30,7 +30,7 @@ The number of soldiers in each row is:
 The rows ordered from weakest to strongest are [2,0,3,1,4].
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: mat =
@@ -49,7 +49,7 @@ The number of soldiers in each row is:
 The rows ordered from weakest to strongest are [0,2,3,1].
 ```
 
-Constraints:
+### Constraints:
 
 - `m == mat.length`
 - `n == mat[i].length`

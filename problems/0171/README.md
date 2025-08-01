@@ -1,4 +1,4 @@
-## 171. Excel Sheet Column Number
+# 171. Excel Sheet Column Number
 
 Given a string `columnTitle` that represents the column title as appears in an Excel sheet, return its corresponding column number.
 
@@ -15,31 +15,29 @@ AB -> 28
 ...
 ```
 
-Example 1:
+### Example 1:
 
 ```
 Input: columnTitle = "A"
 Output: 1
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: columnTitle = "AB"
 Output: 28
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: columnTitle = "ZY"
 Output: 701
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= columnTitle.length <= 7
-- columnTitle consists only of uppercase English letters.
-- columnTitle is in the range ["A", "FXSHRXW"].
-```
+- - `1` <= columnTitle.length` <= `7`
+- - columnTitle consists only of uppercase English letters.
+- - columnTitle is in the range ["A", "FXSHRXW"].

@@ -1,8 +1,8 @@
-## 191. Number of 1 Bits
+# 191. Number of 1 Bits
 
 Given a positive integer `n`, write a function that returns the number of set bits in its binary representation (also known as the Hamming weight).
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 11
@@ -14,7 +14,7 @@ Explanation:
 The input binary string 1011 has a total of three set bits.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 128
@@ -26,7 +26,7 @@ Explanation:
 The input binary string 10000000 has a total of one set bit.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: n = 2147483645
@@ -38,8 +38,6 @@ Explanation:
 The input binary string 1111111111111111111111111111101 has a total of thirty set bits.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= n <= 2^31 - 1
-```
+- - `1` <= n` <= `2^31` - `1`

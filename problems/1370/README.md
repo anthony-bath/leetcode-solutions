@@ -1,4 +1,4 @@
-## 1370. Increasing Decreasing String
+# 1370. Increasing Decreasing String
 
 You are given a string `s`. Reorder the string using the following algorithm:
 
@@ -14,7 +14,7 @@ If the smallest or largest character appears more than once, you may choose any 
 
 Return the resulting string after reordering s using this algorithm.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "aaaabbbbcccc"
@@ -26,7 +26,7 @@ After steps 1, 2 and 3 of the second iteration, result = "abccbaabc"
 After steps 4, 5 and 6 of the second iteration, result = "abccbaabccba"
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "rat"
@@ -34,7 +34,7 @@ Output: "art"
 Explanation: The word "rat" becomes "art" after re-ordering it with the mentioned algorithm.
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= s.length <= 500`
 - `s` consists of only lowercase English letters.

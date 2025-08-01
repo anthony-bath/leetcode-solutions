@@ -1,4 +1,4 @@
-## 1974. Minimum Time to Type Word Using Special Typewriter
+# 1974. Minimum Time to Type Word Using Special Typewriter
 
 There is a special typewriter with lowercase English letters `'a'` to `'z'` arranged in a circle with a pointer. A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character `'a'`.
 
@@ -11,7 +11,7 @@ Each second, you may perform one of the following operations:
 
 Given a string `word`, return the minimum number of seconds to type out the characters in `word`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: word = "abc"
@@ -25,7 +25,7 @@ The characters are printed as follows:
 - Type the character 'c' in 1 second.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: word = "bza"
@@ -40,7 +40,7 @@ The characters are printed as follows:
 - Type the character 'a' in 1 second.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: word = "zjpc"
@@ -57,9 +57,7 @@ The characters are printed as follows:
 - Type the character 'c' in 1 second.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= word.length <= 100
-- word consists of lowercase English letters.
-```
+- - `1` <= word.length` <= `100`
+- - word consists of lowercase English letters.

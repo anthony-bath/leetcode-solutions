@@ -1,4 +1,4 @@
-## 2748. Number of Beautiful Pairs
+# 2748. Number of Beautiful Pairs
 
 You are given a `0`-indexed integer array `nums`. A pair of indices `i`, `j` where `0 <= i < j < nums.length` is called beautiful if the first digit of `nums[i]` and the last digit of `nums[j]` are coprime.
 
@@ -6,7 +6,7 @@ Return the total number of beautiful pairs in nums.
 
 Two integers `x` and `y` are coprime if there is no integer greater than `1` that divides both of them. In other words, `x` and `y` are coprime if `gcd(x, y) == 1`, where `gcd(x, y)` is the greatest common divisor of `x` and `y`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [2,5,1,4]
@@ -20,7 +20,7 @@ When i = 2 and j = 3: the first digit of nums[2] is 1, and the last digit of num
 Thus, we return 5.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [11,21,12]
@@ -31,7 +31,7 @@ When i = 0 and j = 2: the first digit of nums[0] is 1, and the last digit of num
 Thus, we return 2.
 ```
 
-Constraints:
+### Constraints:
 
 - `2 <= nums.length <= 100`
 - `1 <= nums[i] <= 9999`

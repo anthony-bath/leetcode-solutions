@@ -1,4 +1,4 @@
-## 30. Substring with Concatenation of All Words
+# 30. Substring with Concatenation of All Words
 
 You are given a string `s` and an array of strings words. All the strings of words are of the same length.
 
@@ -8,7 +8,7 @@ A concatenated substring in `s` is a substring that contains all the strings of 
 
 Return the starting indices of all the concatenated substrings in `s`. You can return the answer in any order.
 
-Example 1:
+### Example 1:
 
 ```
 Input: s = "barfoothefoobarman", words = ["foo","bar"]
@@ -19,7 +19,7 @@ The substring starting at 9 is "foobar". It is the concatenation of ["foo","bar"
 The output order does not matter. Returning [9,0] is fine too.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: s = "wordgoodgoodgoodbestword", words = ["word","good","best","word"]
@@ -29,7 +29,7 @@ There is no substring of length 16 in s that is equal to the concatenation of an
 We return an empty array.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: s = "barfoofoobarthefoobarman", words = ["bar","foo","the"]
@@ -40,11 +40,9 @@ The substring starting at 9 is "barthefoo". It is the concatenation of ["bar","t
 The substring starting at 12 is "thefoobar". It is the concatenation of ["the","foo","bar"] which is a permutation of words.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= s.length <= 10^4
-1 <= words.length <= 5000
-1 <= words[i].length <= 30
-s and words[i] consist of lowercase English letters.
-```
+- `1` <= s.length` <= `10^4`
+- `1` <= words.length` <= `5000`
+- `1` <= words[i]`.`length <= `30`
+- `s` and words[i] consist of lowercase English letters.

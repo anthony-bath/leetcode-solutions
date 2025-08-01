@@ -1,4 +1,4 @@
-## 804. Unique Morse Code Words
+# 804. Unique Morse Code Words
 
 International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
 
@@ -18,7 +18,7 @@ For example, `"cab"` can be written as `"-.-..--..."`, which is the concatenatio
 
 Return the number of different transformations among all words we have.
 
-Example 1:
+### Example 1:
 
 ```
 Input: words = ["gin","zen","gig","msg"]
@@ -31,14 +31,14 @@ Explanation: The transformation of each word is:
 There are 2 different transformations: "--...-." and "--...--.".
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: words = ["a"]
 Output: 1
 ```
 
-Constraints:
+### Constraints:
 
 - `1 <= words.length <= 100`
 - `1 <= words[i].length <= 12`

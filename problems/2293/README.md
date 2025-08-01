@@ -1,4 +1,4 @@
-## 2293. Min Max Game
+# 2293. Min Max Game
 
 You are given a `0`-indexed integer array nums whose length is a power of `2`.
 
@@ -12,7 +12,7 @@ Apply the following algorithm on `nums`:
 
 Return the last number that remains in `nums` after applying the algorithm.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [1,3,5,2,4,8,2,2]
@@ -24,7 +24,7 @@ Third: nums = [1]
 1 is the last remaining number, so we return 1.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [3]
@@ -32,10 +32,8 @@ Output: 3
 Explanation: 3 is already the last remaining number, so we return 3.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= nums.length <= 1024
-1 <= nums[i] <= 109
-nums.length is a power of 2.
-```
+- `1` <= nums.length` <= `1024`
+- `1` <= nums[i]` <= `109`
+- nums.length is a power of `2`.
