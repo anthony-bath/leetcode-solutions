@@ -1,4 +1,4 @@
-## 175. Combine Two Tables
+# 175. Combine Two Tables
 
 Table: Person
 
@@ -35,7 +35,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
-Example 1:
+### Example 1:
 
 ```
 Input:
@@ -57,7 +57,7 @@ Output:
 +-----------+----------+---------------+----------+
 | firstName | lastName | city          | state    |
 +-----------+----------+---------------+----------+
-| Allen     | Wang     | Null          | Null     |
+| Allen     | Wang     | null          | null     |
 | Bob       | Alice    | New York City | New York |
 +-----------+----------+---------------+----------+
 Explanation:

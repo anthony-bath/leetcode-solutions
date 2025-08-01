@@ -1,4 +1,4 @@
-## 1629. Slowest Key
+# 1629. Slowest Key
 
 A newly designed keypad was tested, where a tester pressed a sequence of `n` keys, one at a time.
 
@@ -10,7 +10,7 @@ Note that the same key could have been pressed multiple times during the test, a
 
 Return the key of the keypress that had the longest duration. If there are multiple such keypresses, return the lexicographically largest key of the keypresses.
 
-Example 1:
+### Example 1:
 
 ```
 Input: releaseTimes = [9,29,49,50], keysPressed = "cbcd"
@@ -24,7 +24,7 @@ The longest of these was the keypress for 'b' and the second keypress for 'c', b
 'c' is lexicographically larger than 'b', so the answer is 'c'.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: releaseTimes = [12,23,36,46,62], keysPressed = "spuda"
@@ -38,13 +38,11 @@ Keypress for 'a' had a duration of 62 - 46 = 16.
 The longest of these was the keypress for 'a' with duration 16.
 ```
 
-Constraints:
+### Constraints:
 
-```
-releaseTimes.length == n
-keysPressed.length == n
-2 <= n <= 1000
-1 <= releaseTimes[i] <= 10^9
-releaseTimes[i] < releaseTimes[i+1]
-keysPressed contains only lowercase English letters.
-```
+- `releaseTimes.length == n`
+- `keysPressed.length == n`
+- `2 <= n <= 1000`
+- `1 <= releaseTimes[i] <= 10^9`
+- `releaseTimes[i] < releaseTimes[i+1]`
+- `keysPressed` contains only lowercase English letters

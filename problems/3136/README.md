@@ -1,7 +1,5 @@
 # 3136. Valid Word
 
-## Description
-
 A word is considered valid if:
 
 - It contains a minimum of `3` characters.
@@ -54,9 +52,7 @@ This word contains a '$' character and does not have a consonant.
 
 ```
 
-## Constraints
-
-Constraints:
+### Constraints:
 
 - `1 <= word.length <= 20`
 - `word` consists of English uppercase and lowercase letters, digits, `'@', '#',` and `$`.

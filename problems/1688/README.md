@@ -1,4 +1,4 @@
-## 1688. Count of Matches in Tournament
+# 1688. Count of Matches in Tournament
 
 You are given an integer `n`, the number of teams in a tournament that has strange rules:
 
@@ -7,7 +7,7 @@ You are given an integer `n`, the number of teams in a tournament that has stran
 
 Return the number of matches played in the tournament until a winner is decided.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 7
@@ -19,7 +19,7 @@ Explanation: Details of the tournament:
 Total number of matches = 3 + 2 + 1 = 6.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 14
@@ -32,8 +32,6 @@ Explanation: Details of the tournament:
 Total number of matches = 7 + 3 + 2 + 1 = 13.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 200
-```
+- `1 <= n <= 200`

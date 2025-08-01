@@ -1,8 +1,8 @@
-## 561. Array Partition
+# 561. Array Partition
 
 Given an integer array nums of `2n` integers, group these integers into n pairs `(a1, b1)`, `(a2, b2)`, ..., `(an, bn)` such that the sum of `min(ai, bi)` for all i is maximized. Return the maximized sum.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [1,4,3,2]
@@ -14,7 +14,7 @@ Explanation: All possible pairings (ignoring the ordering of elements) are:
 So the maximum possible sum is 4.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [6,2,6,5,1,2]
@@ -22,10 +22,8 @@ Output: 9
 Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5) + min(6, 6) = 1 + 2 + 6 = 9.
 ```
 
-Constraints:
+### Constraints:
 
-```
-1 <= n <= 10^4
-nums.length == 2 * n
--10^4 <= nums[i] <= 10^4
-```
+- `1 <= n <= 10^4`
+- `nums.length == 2 * n`
+- `-10^4 <= nums[i] <= 10^4`

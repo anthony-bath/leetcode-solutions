@@ -1,10 +1,10 @@
-## 2200. Find All K-Distant Indices in an Array
+# 2200. Find All K-Distant Indices in an Array
 
 You are given a `0`-indexed integer array `nums` and two integers `key` and `k`. A `k`-distant index is an index `i` of `nums` for which there exists at least one index `j` such that `|i - j| <= k` and `nums[j] == key`.
 
 Return a list of all `k`-distant indices sorted in increasing order.
 
-Example 1:
+### Example 1:
 
 ```
 Input: nums = [3,4,9,1,3,9,5], key = 9, k = 1
@@ -20,7 +20,7 @@ Explanation: Here, nums[2] == key and nums[5] == key.
 Thus, we return [1,2,3,4,5,6] which is sorted in increasing order.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: nums = [2,2,2,2,2], key = 2, k = 2
@@ -29,11 +29,9 @@ Explanation: For all indices i in nums, there exists some index j such that |i -
 Hence, we return [0,1,2,3,4].
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= nums.length <= 1000
-- 1 <= nums[i] <= 1000
-- key is an integer from the array nums.
-- 1 <= k <= nums.length
-```
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= 1000`
+- `key` is an integer from the array `nums`
+- `1 <= k <= nums.length`

@@ -1,4 +1,4 @@
-## 2094. Finding 3-Digit Even Numbers
+# 2094. Finding 3-Digit Even Numbers
 
 You are given an integer array `digits`, where each element is a digit. The array may contain duplicates.
 
@@ -12,7 +12,7 @@ For example, if the given digits were `[1, 2, 3]`, integers `132` and `312` foll
 
 Return a sorted array of the unique integers.
 
-Example 1:
+### Example 1:
 
 ```
 Input: digits = [2,1,3,0]
@@ -21,7 +21,7 @@ Explanation: All the possible integers that follow the requirements are in the o
 Notice that there are no odd integers or integers with leading zeros.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: digits = [2,2,8,8,2]
@@ -30,7 +30,7 @@ Explanation: The same digit can be used as many times as it appears in digits.
 In this example, the digit 8 is used twice each time in 288, 828, and 882.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: digits = [3,7,5]
@@ -38,9 +38,7 @@ Output: []
 Explanation: No even integers can be formed using the given digits.
 ```
 
-Constraints:
+### Constraints:
 
-```
-3 <= digits.length <= 100
-0 <= digits[i] <= 9
-```
+- `3 <= digits.length <= 100`
+- `0 <= digits[i] <= 9`

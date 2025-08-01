@@ -1,4 +1,4 @@
-## 2144. Minimum Cost of Buying Candies With Discount
+# 2144. Minimum Cost of Buying Candies With Discount
 
 A shop is selling candies at a discount. For every two candies sold, the shop gives a third candy for free.
 
@@ -8,7 +8,7 @@ For example, if there are `4` candies with costs `1`, `2`, `3`, and `4`, and the
 
 Given a `0`-indexed integer array `cost`, where `cost[i]` denotes the cost of the `i`th candy, return the minimum cost of buying all the candies.
 
-Example 1:
+### Example 1:
 
 ```
 Input: cost = [1,2,3]
@@ -19,7 +19,7 @@ Note that we cannot buy candies with costs 1 and 3, and then take the candy with
 The cost of the free candy has to be less than or equal to the minimum cost of the purchased candies.
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: cost = [6,5,7,9,2,2]
@@ -32,7 +32,7 @@ Explanation: The way in which we can get the minimum cost is described below:
 Hence, the minimum cost to buy all candies is 9 + 7 + 5 + 2 = 23.
 ```
 
-Example 3:
+### Example 3:
 
 ```
 Input: cost = [5,5]
@@ -41,9 +41,7 @@ Explanation: Since there are only 2 candies, we buy both of them. There is not a
 Hence, the minimum cost to buy all candies is 5 + 5 = 10.
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 1 <= cost.length <= 100
-- 1 <= cost[i] <= 100
-```
+- `1 <= cost.length <= 100`
+- `1 <= cost[i] <= 100`

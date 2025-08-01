@@ -1,8 +1,8 @@
-## 338. Counting Bits
+# 338. Counting Bits
 
 Given an integer `n`, return an array ans of `length n + 1` such that for each `i (0 <= i <= n)`, `ans[i]` is the number of `1`'s in the binary representation of `i`.
 
-Example 1:
+### Example 1:
 
 ```
 Input: n = 2
@@ -13,7 +13,7 @@ Explanation:
 2 --> 10
 ```
 
-Example 2:
+### Example 2:
 
 ```
 Input: n = 5
@@ -27,8 +27,6 @@ Explanation:
 5 --> 101
 ```
 
-Constraints:
+### Constraints:
 
-```
-0 <= n <= 10^5
-```
+- `0 <= n <= 10^5`

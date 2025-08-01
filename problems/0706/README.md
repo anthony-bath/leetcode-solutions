@@ -1,4 +1,4 @@
-## 706. Design HashMap
+# 706. Design HashMap
 
 Design a `HashMap` without using any built-in hash table libraries.
 
@@ -9,7 +9,7 @@ Implement the `MyHashMap` class:
 - `int get(int key)` returns the `value` to which the specified `key` is mapped, or `-1` if this map contains no mapping for the `key`.
 - `void remove(key)` removes the `key` and its corresponding `value` if the map contains the mapping for the `key`.
 
-Example 1:
+### Example 1:
 
 ```
 Input
@@ -30,9 +30,7 @@ myHashMap.remove(2); // remove the mapping for 2, The map is now [[1,1]]
 myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
 ```
 
-Constraints:
+### Constraints:
 
-```
-- 0 <= key, value <= 106
-- At most 10^4 calls will be made to put, get, and remove.
-```
+- `0 <= key, value <= 10^6`
+- At most `10^4` calls will be made to `put`, `get`, and `remove`
