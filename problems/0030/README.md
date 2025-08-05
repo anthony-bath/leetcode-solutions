@@ -42,7 +42,7 @@ The substring starting at 12 is "thefoobar". It is the concatenation of ["the","
 
 ### Constraints:
 
-- `1` <= s.length` <= `10^4`
-- `1` <= words.length` <= `5000`
-- `1` <= words[i]`.`length <= `30`
+- `1 <= s.length <= 10^4`
+- `1 <= words.length <= 5000`
+- `1 <= words[i].length <= 30`
 - `s` and words[i] consist of lowercase English letters.
