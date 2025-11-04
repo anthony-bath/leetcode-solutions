@@ -1,0 +1,10 @@
+{
+  "runOnSave.commands": [
+    {
+      "match": "README\\.md",
+      "runIn": "terminal",
+      "command": "claude",
+      "args": ["format ${file}", "--permission-mode", "acceptEdits", "-p", ">/dev/null"]
+    }
+  ]
+}
