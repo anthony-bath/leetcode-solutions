@@ -1,0 +1,13 @@
+const { abs } = Math;
+
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+const isAdjacentDiffAtMostTwo = function (s) {
+  for (let i = 1; i < s.length; i++) {
+    if (abs(s[i] - s[i - 1]) > 2) return false;
+  }
+
+  return true;
+};
